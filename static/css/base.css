@@ -42,3 +42,27 @@ body {
 .border-3 {
     border-width:3px !important;
 }
+
+
+
+@media (max-width: 991px) {
+
+    .row {
+        margin-left: 0;
+    }
+
+    .col-4 {
+        max-width: 100%;
+    }
+    .search-input,.input-group {
+        width: 77%;
+    }
+
+}
+
+@media (max-width: 338px) {
+
+    .search-input,.input-group {
+        width: 73%;
+    }
+}
